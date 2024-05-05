@@ -1,0 +1,7 @@
+{
+  "name": "shamoud-test",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "frontend", // or "backend", depending on which environment we want to work on
+  "workspaceFolder": "/app",
+  "forwardPorts": [3000, 8000] // Optional, to auto-forward these ports to the host
+}
