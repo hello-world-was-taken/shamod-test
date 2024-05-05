@@ -27,7 +27,6 @@ cd shamod-test
 From the root of your project directory (where the docker-compose.yml file is located), run:
 
 ```bash
-Copy code
 docker-compose up --build
 ```
 
@@ -47,13 +46,11 @@ If you want to develop using a consistent, containerized environment, you can us
 To stop all services, you can use Docker Compose from the root directory of the project:
 
 ```bash
-Copy code
 docker-compose down
 ```
 
 This command stops and removes all running containers. Use the -v flag if you also want to remove all volumes associated with the containers:
 
 ```bash
-Copy code
 docker-compose down -v
 ```
